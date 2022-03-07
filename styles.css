@@ -1,0 +1,83 @@
+#choices {
+    width: 450;
+    margin: auto;
+}
+button {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px;
+    margin: 0px 10px 20px 0px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 25px;
+    width: 500px;
+    margin: auto;
+}
+
+#image-container {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid;
+    border-color: black;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes winningAnim {
+    0% {
+        font-size: 100%;
+        color: black;
+    }
+    50% {
+        font-size: 150%;
+        color: green;
+    }
+    100% {
+        font-size: 100%;
+        color: black;
+    }
+}
+
+@keyframes losingAnim {
+    0% {
+        font-size: 100%;
+        color: black;
+    }
+    50% {
+        font-size: 50%;
+        color: red;
+    }
+    100% {
+        font-size: 100%;
+        color: black;
+    }
+}
+
+@keyframes drawAnim {
+    0% {
+        font-size: 100%;
+        color: black;
+    }
+    50% {
+        font-size: 100%;
+        color:cornflowerblue;
+    }
+    100% {
+        font-size: 100%;
+        color: black;
+    }
+}
